@@ -1,0 +1,22 @@
+"rules","support","confidence","lift"
+"26","{Division Transfer,Find a Towed Vehicle - Plate Number Known} => {Find a Police Precinct or PSA by Location}",0.0020568876351669,0.945945945945946,72.1803417767543
+"20","{IDNYC - Make an Appointment,IDNYC General Information} => {Documents Required to Apply for IDNYC}",0.00170427832628115,0.935483870967742,68.3184272462966
+"24","{Division Transfer,Find a Towed Vehicle - Accident, Filming, Street Event, or Construction} => {Find a Police Precinct or PSA by Location}",0.00105782792665726,0.857142857142857,65.4042280589366
+"4","{Find a Food Pantry or Soup Kitchen} => {Division Information Provided}",0.00199811941701928,0.53968253968254,46.8532555879495
+"8","{IDNYC General Information} => {Documents Required to Apply for IDNYC}",0.00199811941701928,0.62962962962963,45.9818788745827
+"22","{IDNYC - Make an Appointment,IDNYC Enrollment Centers} => {Documents Required to Apply for IDNYC}",0.0020568876351669,0.614035087719298,44.8430088095776
+"10","{IDNYC Enrollment Centers} => {Documents Required to Apply for IDNYC}",0.00217442407146215,0.560606060606061,40.9410846664066
+"11","{IDNYC Enrollment Centers} => {IDNYC - Make an Appointment}",0.00334978843441467,0.863636363636364,39.5043988269795
+"6","{Reclaim a Towed Vehicle - NYPD} => {Find a Towed Vehicle - Plate Number Known}",0.00188058298072402,0.627450980392157,36.4392692230476
+"16","{Documents Required to Apply for IDNYC} => {IDNYC - Make an Appointment}",0.00999059708509638,0.729613733905579,33.3739443444552
+"15","{Find a Towed Vehicle - Accident, Filming, Street Event, or Construction} => {Find a Towed Vehicle - Plate Number Known}",0.00323225199811942,0.561224489795918,32.5931601309466
+"14","{Find a Towed Vehicle - Plate Number Unknown - NYPD} => {Find a Towed Vehicle - Plate Number Known}",0.00293841090738129,0.462962962962963,26.8866135760334
+"9","{IDNYC General Information} => {IDNYC - Make an Appointment}",0.0018218147625764,0.574074074074074,26.2592592592593
+"5","{Service Request Status - HPD Status Not Found} => {Service Request Status - General}",0.00152797367183827,0.666666666666667,22.7334669338677
+"18","{Find a Police Precinct or PSA by Location} => {Division Transfer}",0.00740479548660085,0.565022421524664,20.5876263911428
+"1","{Fight a Parking Ticket - Appeal Hearing Decision} => {Parking Ticket Lookup - Ticket or Plate Number Known}",0.00123413258110014,0.636363636363636,16.4564796905222
+"3","{Pay a Parking Ticket - By Mail} => {Parking Ticket Lookup - Ticket or Plate Number Known}",0.00152797367183827,0.634146341463415,16.3991400400326
+"13","{Pay a Parking Ticket - Online} => {Parking Ticket Lookup - Ticket or Plate Number Known}",0.0041137752703338,0.598290598290598,15.4719039825423
+"12","{Parking Ticket Payment Problem or Pelty Adjustment} => {Parking Ticket Lookup - Ticket or Plate Number Known}",0.00346732487070992,0.59,15.2575075987842
+"7","{Fight a Parking Ticket - Online} => {Parking Ticket Lookup - Ticket or Plate Number Known}",0.00188058298072402,0.457142857142857,11.8217976552323
+"2","{Pay a Parking Ticket - In Person} => {Parking Ticket Lookup - Ticket or Plate Number Known}",0.00105782792665726,0.409090909090909,10.5791655153357
