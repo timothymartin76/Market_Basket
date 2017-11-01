@@ -35,4 +35,7 @@ write(rules, file = "data.csv",  sep = ",")
 plot(rules, method="graph", main="", control=list(layout=igraph::with_graphopt()))
 plot(rules, method="paracoord")
 plot(rules, method="grouped")
-plot(rules,method="graph",interactive=TRUE,shading=NA)
+## plot(rules,method="graph",interactive=TRUE,shading=NA) 
+##In plot.rules(rules, method = "graph", interactive = TRUE, shading = NA) :
+##The parameter interactive is deprecated. Use engine='interactive' instead.
+plot(rules,method="graph",engine='interactive',shading=NA)
