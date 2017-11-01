@@ -5,6 +5,11 @@ require(arulesViz)
 ## Read in CSV file to transactions - format basket
 mydata<- read.transactions("MB1GOOD.csv" , format = "basket" ,  rm.duplicates = TRUE, sep= "," )
 
+## If file in longform format by BIN - convert to transactions
+## trans <- as(split(mydata[,"Category"], mydata[,"BIN"]), "transactions")
+## Write all transactions to CSV file
+## write(mydata, file = "all_data.csv", sep = ",")
+
 ## Create an item frequency plot for the top 20 items
 itemFrequencyPlot(mydata,topN=20,type="absolute", col="steelblue")
 
@@ -28,8 +33,10 @@ redundant <- colSums(subset.matrix, na.rm=T) >= 1
 rules.pruned <- rules[!redundant]
 rules<-rules.pruned
 
-## Write to CSV file
+## Write rules to CSV file
 write(rules, file = "data.csv",  sep = ",")
+
+
 
 ## Create different visualizations
 plot(rules, method="graph", main="", control=list(layout=igraph::with_graphopt()))
